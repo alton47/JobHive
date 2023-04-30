@@ -5,6 +5,19 @@
       "bundler": "metro"
     },
     "name": "JobHive",
-    "slug": "JobHive"
+    "slug": "JobHive",
+    "extra": {
+      "eas": {
+        "projectId": "c00b8b11-6dcd-497e-b631-8925225bfae9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c00b8b11-6dcd-497e-b631-8925225bfae9"
+    },
+    "android": {},
+    "ios": {}
   }
 }
