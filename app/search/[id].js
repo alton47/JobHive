@@ -27,13 +27,14 @@ const JobSearch = () => {
     setSearchLoader(true);
     setSearchResult([]);
 
+    //"4f5dbd09b6msh8c151eee32a6506p1f1223jsn31401d66947b"
     try {
       const options = {
         method: "GET",
         url: `https://jsearch.p.rapidapi.com/search`,
         headers: {
           "X-RapidAPI-Key":
-            "4f5dbd09b6msh8c151eee32a6506p1f1223jsn31401d66947b",
+            "01b32bcdddmsh1dcd2bfa56b39ffp1d787cjsn7fd3f45c994d",
           "X-RapidAPI-Host": "jsearch.p.rapidapi.com"
         },
         params: {
